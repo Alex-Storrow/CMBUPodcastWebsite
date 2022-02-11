@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Sen&display=swap');
+
+.home-bg{
+    background: url("images/orangebackground.jpeg");
+    background-size: cover;
+}
+#contactus-bg{
+    background: url("images/rainbow.jpeg");
+    background-size: cover;
+}
+.aboutus-bg{
+    background: url("images/orangebackground.jpeg");
+    background-size: cover;
+}
+.flex-containerbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(196, 185, 94, 0.7);
+}
+ .flex-containerbuttons > div{
+align-self: center;
+margin: 2px;
+padding: 1px;
+}
+.Header1 {
+font-family: 'Major Mono Display', monospace;
+font-size: 35px;
+font-weight: lighter;
+color:rgb(255, 255, 255);
+text-align: center;
+padding: 20px;
+border: 4px;
+border-style:ridge;
+border-color: rgb(243, 90, 20);
+margin: 8px;
+}
+.Header2 {
+color: rgb(255, 255, 255);
+font-family: 'Major Mono Display', monospace;
+font-size: 15px;
+font-weight: 150;
+text-align: center;
+}
+.ourlogo {
+display: flex;
+align-items:center;
+}
+.ourlogo img{
+margin: auto;
+text-align: center;
+box-sizing: border-box;
+padding: 15px;
+}
+.meandbibi {
+display: flex;
+align-items: center;
+}
+.meandbibi img{
+margin: auto;
+text-align: center;
+}
+p{
+font-family: 'Sen', sans-serif;
+font: size 150px;
+color:rgb(255, 255, 255);
+}
+.navbar {
+display: flex;
+justify-content: space-evenly;
+text-decoration: none;
+color: rgb(240, 123, 240);
+font-size: 14px;
+}
+.navbar a{
+display: flex;
+text-decoration: none;
+font-family: 'Major Mono Display', monospace;
+text-align: center;
+}
+.navbar :hover{
+color: powderblue;
+}
+.emaillink {
+color: powderblue;
+}
+.emaillink :hover{
+    color:powderblue;
+}
+.openingstatement {
+text-align: center;
+background-color: rgba(253, 205, 162, 0.5);
+font-family: 'Sen', sans-serif;
+font-weight: 20px;
+padding: 5px;
+border: 3px;
+margin: 2px;
+}
+
+.meetyourhosts {
+color: rgb(92, 49, 32);
+font-family: 'Major Mono Display', monospace;
+font-size: 16px;
+font-weight: bolder;
+text-align: right;
+padding: 10px;
+}
+
+.alexandbibi {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+.alexandbibi img{
+text-align: right;
+width: 200px;
+height: 250px;
+padding:10px;
+}
+
+.contactusparaone {
+text-align: center;
+background-color: rgba(253, 205, 162, 0.5);
+font-family: 'Sen', sans-serif;
+font-weight: 100px;
+padding: 5px;
+margin: 2px;
+}
+.contactimage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.contactimage img{
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
